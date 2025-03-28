@@ -12,11 +12,6 @@
 	<task:header />
 	<main>
 		<table>
-			<thead>
-				<tr>
-					<th>Tasks</th>
-				</tr>
-			</thead>
 			<tbody>
 				<c:forEach items="${tasks}" var="task">
 					<tr>

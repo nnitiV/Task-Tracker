@@ -1,3 +1,3 @@
 <header>
-<h1>Testing header</h1>
+<h1>Tasks Tracker</h1>
 </header>
