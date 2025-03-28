@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(214, 228, 254);
+}
+
+header {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	padding: 2vw 0;
+	background: rgb(9, 3, 12);
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+main {
+	width: 50vw;
+	margin: 0 auto;
+}
+
+main table {
+	width: 50vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background: white;
+	margin-top: 5vh;
+	border: 1px solid black;
+	border-radius: .25rem;
+}
+
+main table thead {
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	border-bottom: 1px solid black;
+	padding: .25vh 0;
+	margin-bottom: 3vh;
+}
+
+main table tbody {
+	margin: 0 auto;
+}
+
+main table tbody tr {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5vh;
+}
+
+main table tbody .task-name input {
+	width: 100%;
+	text-align: center;
+	border: 0;
+	border-bottom: 1px solid black;
+	padding-bottom: .5vh;
+	margin-bottom: 1.5vh;
+	font-weight: bold;
+	transition: .15s;
+}
+
+main table tbody .task-name input:focus {
+	outline: none;
+	padding-bottom: .9vh;
+	border-bottom: 1px solid #272727;
+	padding-top: 1vh;
+	color: black;
+	background: rgba(0, 0, 0, 0.15);
+}
+
+main table tbody .task-buttons {
+	width: 35vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+}
+
+main table tbody tr .task-buttons input {
+	height: 5vh;
+	width: 9vw;
+	font-size: .75vw;
+	border: 0;
+	border-radius: 1.5rem;
+	background: black;
+	color: white;
+	font-weight: bold;
+	transition: .15s;
+}
+
+main table tbody tr .task-buttons input:hover {
+	background: white;
+	border: .5px solid black;
+	color: black;
+	cursor: pointer;
+}
+
+main table tbody tr .task-buttons a {
+	width: 9vw;
+	color: white;
+	border: 0;
+	font-weight: bold;
+	text-align: center;
+	background: black;
+	text-decoration: none;
+	border-radius: 1.5rem;
+	padding: 1.35vh 0;
+	transition: .15s;
+}
+
+main table tbody tr .task-buttons a:hover {
+	background: white;
+	border: .5px solid black;
+	color: black;
+	cursor: pointer;
+}
+
+main #action-form {
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+	margin: 2vh auto;
+	width: 50vw;
+}
+
+main #action-form input[type="text"] {
+	width: 25vw;
+	border: 0;
+	border-bottom: 1px solid black;
+	background: white;
+	padding-left: 1vw;
+	font-weight: bold;
+	border-radius: .25rem 0 0 .25rem;
+	transition: .2s;
+}
+
+main #action-form input[type="text"]:focus {
+	outline: none;
+	padding-bottom: .9vh;
+	border-bottom: 1px solid #272727;
+	padding-top: 1vh;
+	color: black;
+	background: rgba(0, 0, 0, 0.15);
+}
+
+main #action-form input[type="submit"] {
+	height: 5vh;
+	width: 3vw;
+	font-size: .75vw;
+	border: 0;
+	border-radius: 0 .25rem .25rem 0;
+	background: black;
+	color: white;
+	font-weight: bold;
+	transition: .15s;
+}
+
+main #action-form input[type="submit"]:hover {
+	background: white;
+	border: .5px solid black;
+	color: black;
+	cursor: pointer;
+}
